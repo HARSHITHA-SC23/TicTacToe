@@ -73,7 +73,7 @@ body {
 }
 
 .o::after {
-    content: '〇';
+    content: '○';
     font-size: 110px;
     color:rgb(175, 10, 10);
 }
@@ -95,7 +95,7 @@ body {
         font-size: 150px;
     }
     .o::after{
-        font-size: 50px;
+        font-size: 100px;
     }
 }
 @media only screen and (max-width:540px) {
@@ -111,23 +111,7 @@ body {
         font-size: 100px;
     }
     .o::after{
-        font-size: 50px;
+        font-size: 100px;
     }
 }
 
-@media only screen and (max-width:340px) {
-    .container{
-        margin: 25px;
-        padding: 25px;
-    }
-    .game-cell{
-        height: 100px;
-        width: 100px;
-    }
-    .x::after{
-        font-size: 100px;
-    }
-    .o::after{
-        font-size: 90px;
-    }
-}
